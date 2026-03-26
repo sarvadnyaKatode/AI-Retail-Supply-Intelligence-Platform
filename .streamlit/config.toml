@@ -1,0 +1,13 @@
+# Streamlit Cloud Configuration
+# This file configures Streamlit Community Cloud deployment settings
+
+[server]
+headless = true
+port = 8501
+
+[theme]
+base = "dark"
+primaryColor = "#64ffda"
+backgroundColor = "#0f1117"
+secondaryBackgroundColor = "#161b27"
+textColor = "#e0e0e0"
