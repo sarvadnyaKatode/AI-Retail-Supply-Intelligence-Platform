@@ -5,10 +5,14 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-2.0-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Live_Demo-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live_Demo-FF4B4B?logo=streamlit&logoColor=white)](https://ai-retail-supply-intelligence-platform.streamlit.app)
 [![Prophet](https://img.shields.io/badge/Prophet-1.3-blue)](https://facebook.github.io/prophet/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://docker.com)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+---
+
+### 🚀 **[View Live Interactive Demo](https://ai-retail-supply-intelligence-platform.streamlit.app)**
 
 ---
 
