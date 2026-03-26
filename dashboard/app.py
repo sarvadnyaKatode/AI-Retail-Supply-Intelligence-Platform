@@ -102,7 +102,11 @@ st.markdown("""
 # ─────────────────────────────────────────────
 # DATA LOADING (self-contained, no API needed)
 # ─────────────────────────────────────────────
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Streamlit Cloud runs from the project root, so we check if 'data' is in current dir
+if os.path.exists(os.path.join(os.getcwd(), "data")):
+    BASE_DIR = os.getcwd()
+else:
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 @st.cache_data(ttl=3600)
 def load_data():
